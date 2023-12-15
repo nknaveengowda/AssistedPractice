@@ -30,12 +30,12 @@ public class TestSignInPage {
 		
 		Thread.sleep(3000);
 		
-		driver.findElement(By.id("ap_email")).sendKeys("7899563443");
+		driver.findElement(By.id("ap_email")).sendKeys("xxxxxxx");
 		driver.findElement(By.xpath("//*[@id=\"ap_email\"]")).click();
 		
 		// inspect password input box and click on sign button
 		
-		driver.findElement(By.id("ap_password")).sendKeys("Compiler@1234");
+		driver.findElement(By.id("ap_password")).sendKeys("xxxxxxxx");
 		driver.findElement(By.id("signInSubmit")).click();
 		
 		// fetch the error text
