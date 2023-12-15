@@ -12,9 +12,9 @@ public class AmazonLoginTest {
         driver.get("https://www.amazon.in/");
 
         // Enter email (assuming it's a mobile number)
-        driver.findElement(By.id("ap_email")).sendKeys("7899563443");
+        driver.findElement(By.id("ap_email")).sendKeys("xxxxxxxx");
 
         // Enter password
-        driver.findElement(By.name("password")).sendKeys("Compiler@1234");
+        driver.findElement(By.name("password")).sendKeys("xxxxxxxxx");
     }
 }
